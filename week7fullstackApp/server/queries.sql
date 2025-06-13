@@ -1,0 +1,1 @@
+copy of SQL queries from supabase (4 marking)
