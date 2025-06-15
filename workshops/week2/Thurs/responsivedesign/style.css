@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.welcomeText{
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+.container{
+    background-color: chartreuse;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    border: 2px pink;
+    border-radius: 1rem;
+    padding: 1em;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 800px){
+    header{justify-content: start;}
+}

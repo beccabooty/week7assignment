@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<h1>About You Form</h1>
+
+<form id="aboutYou-form">
+<fieldset>
+<legend>Tell us about yourself!</legend>
+
+<label for="fullName">Name:</label>
+<input 
+type="text"
+name="fullName"
+placeholder="Write your full name"
+required>
+
+<label for="city">City:</label>
+<input 
+type="text"
+name="city"
+placeholder="Write your closest city"
+required>
+</fieldset>
+
+<fieldset>
+    <legend>What's your favourite hobby?</legend>
+    <label for="hobbies">Favourite Hobby:</label>
+    <select name="hobbies"></select>
+    <option value="" selected hidden>Pick a Hobby</option>
+    <option value="coding">Coding</option>
+    <option value="sewing">Sewing</option>
+    <option value="photography">Photography</option>
+    <option value="reading">Reading</option>
+</select>
+</fieldset>
+
+<button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
