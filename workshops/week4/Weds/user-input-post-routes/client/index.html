@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="/src/main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>User input and POST routes</title>
+  </head>
+  <body>
+    <form id="filmForm">
+      <fieldset>
+        <legend>Film Data</legend>
+
+        <label for="filmTitle">Film Title: </label>
+        <input type="text" name="filmTitle" required />
+
+        <label for="filmGenre">Film Genre: </label>
+        <input type="text" name="filmGenre" required />
+
+        <label for="filmRating">Film Rating: </label>
+        <input type="number" min="0" max="5" name="filmRating" required />
+
+        <label for="filmLength">Film Length: </label>
+        <input type="number" name="filmLength" required />
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

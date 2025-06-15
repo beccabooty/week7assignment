@@ -1,0 +1,7 @@
+body{background-color: antiquewhite; font-family: Arial, Helvetica, sans-serif;color: black;}
+header{height:100px;background-color: firebrick;font-family:Verdana, Geneva, Tahoma, sans-serif;color: aliceblue;}
+.navlink {align: right;}
+.headline {font-family: Verdana, Geneva, Tahoma, sans-serif;text-align: center;}
+.read-more-button {background-color: firebrick;color: antiquewhite;}
+.read-more-button:hover{background-color: bisque;color: black;}
+footer{text-align: center;}
