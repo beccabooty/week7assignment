@@ -1,12 +1,5 @@
 Reflections:
 
-🎯 What requirements did you achieve?
-🎯 Were there any requirements or goals that you were unable to achieve?
-🎯 If so, what was it that you found difficult about these tasks?
+I feel like this assignment was much better than last week but I'm disappointed that I'm still struggling to understand how to blend the individual workshops into code that works together. However, I did feel a bit more confident this week and I am starting to put some building blocks together, albeit slowly and with errors! I tackled most of the requirements but could not get them all functioning.
 
-🏹 Feel free to add any other reflections you would like to share about your submission, for example:
-
-Requesting feedback about a specific part of your submission.
-What useful external sources helped you complete the assignment (e.g Youtube tutorials)?
-What errors or bugs did you encounter while completing your assignment? How did you solve them?
-What went really well and what could have gone better?
+Using state and stata were really confusing and I tackle the form ok using the workshop recording but when it came to my content pages I got really lost. I think this was because I definitely found myself lost in the weeds when it came to putting together the database with the routes and realised too late I needed to use the foreign key on the guess for the suspects for what I envisioned, but wasn't sure how to implement this when it was a text input, as users may spell incorrectly or capitalise differently. I would have liked to use form inputs as buttons to select the suspects but I think this clashed with my database types as they were already set to expect text and wasn't sure what data type the buttons would be. This meant when tackling the content pages and their data I wasn't sure how to fetch what I wanted. I would definitely like some feedback on how I could have planned and implemented my database more successfuly for what I was imagining.
